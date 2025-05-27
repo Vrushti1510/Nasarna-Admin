@@ -1,5 +1,5 @@
 import React from 'react'
-import DonationsList from '../Components/Donations/donationsList'
+import DonationsList from '../Components/Donations/DonationsList.jsx'
 import Header from '../Components/Common/Header'
 import Footer from '../Components/Common/Footer'
 

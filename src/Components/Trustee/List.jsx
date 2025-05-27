@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTrustees } from "../../Redux/trusteeSlice";
-import ModalForm from "../../Components/Trustee/Modalform";
+import ModalForm from "../../Components/Trustee/ModalForm";
 import EditModal from "./EditModal"; // Import the EditModal component
 import { deleteTrustee } from "../../Redux/trusteeSlice";
 

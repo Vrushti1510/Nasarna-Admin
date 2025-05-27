@@ -6,7 +6,7 @@ import { loginUser } from "../../Redux/authSlice";
 import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify"; 
 import 'react-toastify/dist/ReactToastify.css'; 
-import logoImage from "../../assets/logo.png"; 
+import logo from "../../assets/logo.png"; 
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -56,7 +56,7 @@ const Login = () => {
       {/* Header with Logo and Website Link */}
       <div className="absolute top-6 w-full flex justify-between items-center px-6">
         <div className="flex items-center space-x-2">
-          <img src={logoImage} alt="Nasarna Logo" className="w-35 h-10 cursor-pointer" />
+          <img src={logo} alt="Nasarna Logo" className="w-35 h-10 cursor-pointer" />
         </div>
         <Link to="/website" className="text-white hover:text-blue-900 flex items-center">
           <span className="mr-2">Go to Website</span>
